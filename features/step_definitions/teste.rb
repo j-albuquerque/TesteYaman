@@ -13,7 +13,7 @@ Entao("devem ser exibidos pelo menos {int} resultados") do |int|
 end
 
 Quando("navegar até a segunda página de produtos") do
-  page.execute_script "window.scrollBy(0,3000)"
+  page.execute_script "window.scrollBy(0,12000)"
   find('li', :class => 'pagination__page', :text => '2').click
 
 end
