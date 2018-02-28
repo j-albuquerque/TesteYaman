@@ -18,7 +18,7 @@ Quando("navegar até a segunda página de produtos") do
 
 end
 
-Entao("devo tirar um screeshot do penultimo item da página") do
+Entao("devo tirar um screenshot do penultimo item da página") do
   page.execute_script "window.scrollBy(0,12000)"
   page.save_screenshot('teste.png')
   sleep 5

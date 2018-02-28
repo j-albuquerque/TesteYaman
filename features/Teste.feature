@@ -16,4 +16,4 @@ Cenario: Pesquisa por um produto e screenshot do mesmo
     Dado que eu acesse "https://www.mercadolivre.com.br"
     Quando pesquisar o produto "Galaxy S8"
     E navegar até a segunda página de produtos
-    Entao devo tirar um screeshot do penultimo item da página
+    Entao devo tirar um screenshot do penultimo item da página
